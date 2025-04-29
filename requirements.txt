@@ -1,0 +1,8 @@
+langchain>=0.1.0,<0.2.0
+langchain-openai>=0.1.0,<0.2.0
+langchain-community>=0.0.30,<0.1.0
+pypdf>=4.0.0,<5.0.0
+faiss-cpu>=1.7.0,<1.8.0  # Or faiss-gpu if you have CUDA setup
+tiktoken>=0.5.0,<0.6.0
+python-dotenv>=1.0.0,<2.0.0
+openai>=1.10.0,<2.0.0
