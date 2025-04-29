@@ -16,16 +16,17 @@ or:
 
 
 RUN A QUERY
-# First run will build the index (can take time depending on document size/count)
+
+First run will build the index (can take time depending on document size/count)
 python main.py "What is the policy deductible for collision?"
 
-# Subsequent runs will load the existing index (faster setup)
+Subsequent runs will load the existing index (faster setup)
 python main.py "Are rental cars covered?"
 
-# Force rebuild the index if documents change
+Force rebuild the index if documents change
 python main.py --rebuild "List the main exclusions."
 
-# Enter interactive mode
+Enter interactive mode
 python main.py --interactive
 
 Example Runs:
@@ -59,7 +60,9 @@ Explain the HIV coverage
 --- Answer ---
 Any sexually transmitted disease, or any condition related to HIV or AIDS is not covered under the insurance policy.
 2025-04-29 21:55:04,521 - INFO - Query processed in 2.37 seconds.
-(base) vijaymallepudi@Vijays-MacBook-Pro Semantic_Spotter_Project % 
+
+
+
 
 
 
